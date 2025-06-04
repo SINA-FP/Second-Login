@@ -6,4 +6,6 @@
 
 .container {
     background-color: #080710;
+    display: flex;
+    
 }
