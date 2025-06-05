@@ -95,6 +95,7 @@
 }
 
 @media (max-width: 600px) {
+
     .loginForm {
         width: 90%;
     }
@@ -119,8 +120,9 @@
 }
 
 @media (max-width: 900px) {
+
     .loginForm {
-        width: 70%;
+        width: 65%;
     }
 
     .shape {
