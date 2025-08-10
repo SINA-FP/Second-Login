@@ -1,3 +1,5 @@
+/* ---------- Reset default styles for all elements ---------- */
+
 * {
     margin: 0;
     padding: 0;
@@ -5,6 +7,8 @@
     border: none;
     outline: none;
 }
+
+/* ---------- main container ---------- */
 
 .container {
     background-color: #080710;
@@ -14,10 +18,14 @@
     height: 100vh;
 }
 
+/* ---------- Login form container ---------- */
+
 .loginForm {
     width: 400px;
     position: relative;
 }
+
+/* ---------- Circle shapes ---------- */
 
 .shape {
     height: 200px;
@@ -38,6 +46,8 @@
     top: 300px;
 }
 
+/* ---------- Form style  ---------- */
+
 .form {
     width: 100%;
     height: 100%;
@@ -50,15 +60,21 @@
     backdrop-filter: blur(10px);
 }
 
+/* ---------- Form title style ---------- */
+
 .formTitle {
     font-size: 32px;
     text-align: center;
     margin-bottom: 30px;
 }
 
+/* ---------- Input title style ---------- */
+
 .formInput {
     margin-bottom: 26px;
 }
+
+/* ---------- Label title style ---------- */
 
 .formLabel {
     font-size: 16px;
@@ -81,6 +97,8 @@
     color: #e5e5e5;
 }
 
+/* ---------- Submit button style  ---------- */
+
 .btn {
     background-color: #fff;
     color: #080710;
@@ -94,32 +112,36 @@
     font-weight: bold;
 }
 
-@media screen and (max-width: 768px) {
+/* ---------- Responsive styles for tablets  ---------- */
 
+@media screen and (max-width: 768px) {
+    
     .container {
         overflow: hidden;
     }
-
+    
     .loginForm {
         width: 80%;
         margin: 20px auto;
     }
-
+    
     .shape {
         width: 150px;
         height: 150px;
     }
-
+    
     .shapeOne {
         left: 150px;
         top: 150px;
     }
-
+    
     .shapeTwo {
         right: 150px;
         bottom: 150px;
     }
 }
+
+/* ---------- Responsive styles for mobile devices  ---------- */
 
 @media screen and (max-width: 480px) {
 
